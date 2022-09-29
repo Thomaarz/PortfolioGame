@@ -4,6 +4,6 @@ window.onmousemove = function (event) {
 
     var cursor = document.getElementById("cursor");
 
-    cursor.style.marginLeft = (mouse_x - 20) + 'px';
-    cursor.style.marginTop = (mouse_y - 10) + 'px';
+    cursor.style.left = (mouse_x - 20) + 'px';
+    cursor.style.top = (mouse_y - 10) + 'px';
 }

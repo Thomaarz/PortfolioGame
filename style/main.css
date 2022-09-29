@@ -1,4 +1,5 @@
-body {
-    background-color: black;
-    color: white;
+#main {
+    opacity: 0;
+
+    transition: all 1s ease-in;
 }
