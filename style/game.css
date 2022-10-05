@@ -1,0 +1,163 @@
+
+/* PLAYER */
+#player {
+    top: -100px;
+    left: 700px;
+    width: 50px;
+    height: 50px;
+
+    transition: 1s;
+
+    border: solid 5px #ccf381;
+
+    position: fixed;
+    overflow: hidden;
+    z-index: 2;
+}
+
+/* PLATEFORME */
+.plateforme {
+    border-top: solid 5px #ccf381;
+
+    position: fixed;
+    z-index: 2;
+
+    transition: .1s;
+}
+#plateforme-1 {
+    top: 750px;
+    left: 500px;
+    width: 1100px;
+    height: 200px;
+}
+
+/* TOUCHES */
+#deplacement-infos {
+    line-height: 160%;
+
+    transition: all .5s ease-in-out;
+}
+.touch {
+    border: solid 2px #ccf381;
+    padding: 0 5px;
+}
+
+/* GAME LINKS */
+.game {
+    color: transparent;
+}
+.nav-element {
+    position: fixed;
+    overflow: hidden;
+    z-index: 2;
+
+    transition: .1s;
+
+    top: 670px;
+
+    height: 40px;
+    width: 40px;
+
+    border: solid 2px #F5F5F5;
+    color: #ccf381;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#game-link-presentation {
+    left: 883px;
+}
+#game-link-experience {
+    left: 1066px;
+}
+#game-link-projets {
+    left: 1249px;
+}
+#game-link-contact {
+    left: 1432px;
+}
+
+#game-link-presentation:hover {
+    left: 803px;
+    padding: 0 80px;
+}
+#game-link-experience:hover {
+    left: 986px;
+    padding: 0 80px;
+}
+#game-link-projets:hover {
+    left: 1169px;
+    padding: 0 80px;
+}
+#game-link-contact:hover {
+    left: 1352px;
+    padding: 0 80px;
+}
+
+@media (max-width: 1600px) {
+    #plateforme-1 {
+        left: 10%;
+        width: 80%;
+    }
+
+    #game-link-presentation {
+        left: 18%;
+    }
+    #game-link-experience {
+        left: 38%;
+    }
+    #game-link-projets {
+        left: 57%;
+    }
+    #game-link-contact {
+        left: 75%;
+    }
+
+    #game-link-presentation:hover {
+        left: 15%;
+        padding: 0 6%;
+    }
+    #game-link-experience:hover {
+        left: 35%;
+        padding: 0 6%;
+    }
+    #game-link-projets:hover {
+        left: 54%;
+        padding: 0 6%;
+    }
+    #game-link-contact:hover {
+        left: 71%;
+        padding: 0 6%;
+    }
+
+    #player {
+        display: none;
+    }
+
+    #deplacement-infos {
+        display: none;
+    }
+}
+
+@media (min-width: 2900px) {
+    #player {
+        display: none;
+    }
+    #plateforme-1 {
+        display: none;
+    }
+    #game-nav {
+        display: flex;
+    }
+    .nav-element {
+        position: initial;
+        margin-right: 70px;
+
+        width: 200px;
+    }
+
+    #deplacement-infos {
+        display: none;
+    }
+}

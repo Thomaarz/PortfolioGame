@@ -1,0 +1,19 @@
+
+header {
+    position: relative;
+
+    padding: 10% 0 0 15%;
+    text-shadow: 0 0 15px white;
+}
+#title-1 {
+    z-index: 1;
+}
+#title-1 span {
+    transition: .5s;
+}
+#title-1 span:hover {
+    text-decoration: underline;
+    color: #ccf381;
+
+    margin-left: 10px;
+}

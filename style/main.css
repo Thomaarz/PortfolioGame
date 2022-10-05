@@ -1,0 +1,45 @@
+
+main {
+    padding: 0 0 0 15%;
+}
+
+.main-box {
+    min-height: 900px;
+}
+
+/* TEXT */
+.title {
+    padding: 6% 0 0 0;
+}
+.shadow {
+    text-shadow: 0 0 15px white;
+}
+.text {
+    max-width: 30%;
+    font-size: 1.4em;
+}
+.hover-text {
+    transition: .2s;
+}
+.hover-text:hover {
+    color: #ccf381;
+    margin-left: 2%;
+    text-decoration: underline;
+}
+
+.reveal {
+    transform: translateX(-500px);
+    opacity: 0;
+
+    transition: .2s;
+}
+.active {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+@media (max-width: 1600px) {
+    .text {
+        max-width: 80%;
+    }
+}

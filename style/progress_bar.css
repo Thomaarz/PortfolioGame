@@ -1,0 +1,41 @@
+
+#progress-bar {
+    overflow: hidden;
+    position: fixed;
+
+    height: 70%;
+
+    left: 10%;
+    top: 15%;
+
+    z-index: 1;
+}
+#progress-bar-top {
+    border-left: solid 2px #404040;
+    border-image: linear-gradient(to top, #404040 20%, transparent 80%) 10% 1;
+
+    height: 10%;
+}
+#progress-bar-middle {
+    background-color: #839A57;
+
+    overflow: hidden;
+    position: fixed;
+
+    padding: 10px;
+    margin: -10px 0 0 -9px;
+
+    border-radius: 50%;
+}
+#progress-bar-bottom {
+    border-left: solid 2px #ccf381;
+    border-image: linear-gradient(to bottom, #ccf381 20%, transparent 80%) 10% 1;
+
+    height: 90%;
+}
+
+@media (max-width: 1600px) {
+    #progress-bar {
+        left: 8%;
+    }
+}

@@ -1,0 +1,80 @@
+
+/* FONTS */
+@font-face {
+    font-family: BrokenHome;
+    src: url("font/fontBroken.otf") format("opentype");
+}
+@font-face {
+    font-family: LouisGeorge;
+    src: url("font/fontLouis.ttf") format("opentype");
+}
+
+
+/* GENERAL */
+html {
+    scroll-behavior: smooth;
+    transition: .1s;
+}
+body {
+    font-family: LouisGeorge, 'Courier New', sans-serif;
+    margin: auto;
+
+    background-color: #222222;
+}
+
+
+/* FONT STYLE */
+.bold {
+    font-weight: bold;
+}
+.big {
+    font-size: 1.5em;
+}
+.biggest {
+    font-size: 3.5em;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.lowercase {
+    text-transform: lowercase;
+}
+.undecorated {
+    text-decoration: none;
+}
+.underline {
+    text-decoration: underline;
+}
+.invisible {
+    opacity: 0;
+}
+.masked {
+    display: none;
+}
+
+
+/* COLORS */
+.lime {
+    color: #ccf381;
+}
+.green {
+    color: #BFFF44;
+}
+.white {
+    color: #F5F5F5;
+}
+.black {
+    color: #161616;
+}
+.black-2 {
+    color: #212121;
+}
+.black-3 {
+    color: #2F2F2F;
+}
+.black-4 {
+    color: #323232;
+}
+.black-5 {
+ color: #4D4D4D;
+}
